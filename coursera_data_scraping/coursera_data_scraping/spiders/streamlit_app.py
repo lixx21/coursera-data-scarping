@@ -33,7 +33,8 @@ with st.form(key = 'user_info'):
     page = st.number_input('How many page you want to scrap ?', 1, 100)
     
     submit_form = st.form_submit_button(label="Submit", help="Click to start scraping")
-    start_scrapping(course, page)
+    if submit_form:
+        start_scrapping(course, page)
 
 df = pd.read_csv("output.csv")
 
