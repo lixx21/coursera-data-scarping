@@ -1,12 +1,5 @@
 import scrapy
-from pathlib import Path
-from scrapy.crawler import CrawlerProcess
 import pandas as pd
-import csv
-from csv import DictWriter
-
-class DataItem(scrapy.Item):
-    title = scrapy.Field()    
     
 class coursera_data(scrapy.Spider):
     
@@ -21,7 +14,6 @@ class coursera_data(scrapy.Spider):
         #create course path so we can use it into query string in coursera
         course_format = self.course.replace(" ", "+")
         
-     
         for index in range(self.page):
             url = f"https://www.coursera.org/search?query={course_format}&page={index+1}"
 
