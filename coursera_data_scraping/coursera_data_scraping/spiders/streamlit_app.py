@@ -26,6 +26,7 @@ def clear_data(df):
     return empty_df
 
 st.title('Coursera Data Scraping')
+st.caption('This app will scraping courses data from coursera')
 
 with st.form(key = 'user_info'):
     course = st.text_input('What course you want to scrap ? (i.e. data engineer)')
