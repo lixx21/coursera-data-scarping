@@ -19,3 +19,7 @@
 3. Because Scraping in Coursera will return this error ```DEBUG: Forbidden by robots.txt:``` Therefore, in ```settings.py``` we set ```ROBOTSTXT_OBEY = False```
 4. We also need to define our ```USER_AGENT``` in ```settings.py```
 5. Because we want to store (append) data in csv, we need to create a csv first named ```output.csv``` in ```coursera_data_scraping/coursera_data_scraping/spiders``` directory and filled the header and keep the rest empty. **Just filled the header**
+
+## APP OVERVIEW
+
+![image](https://github.com/lixx21/coursera-data-scarping/assets/91602612/bf83e562-4193-460c-b821-6824825952ad)
