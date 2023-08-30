@@ -8,7 +8,7 @@
 
 ## RUN CRAWLING
 
-1. Clone this repository ``````
+1. Clone this repository ```https://github.com/lixx21/coursera-data-scarping.git```
 2. Go to spiders directory path with ```cd coursera_data_scraping/coursera_data_scraping/spiders```
 3. Start running streamlit app with following command ```streamlit run streamlit_app.py```
 
